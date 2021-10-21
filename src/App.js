@@ -1,11 +1,22 @@
 import React from "react";
+
+//Para las rutas
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+
+//Componentes
+import Home from "./Components/Home";
+import LandingPage from "./Components/LandingPage";
 
 function App() {
   return (
-    <div>
-      <h1>Este será mi portafolio!</h1>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Switch>
+          <Route exact path="/" component={LandingPage}/>
+          <Route exact path="/home" component={Home}/>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 

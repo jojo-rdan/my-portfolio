@@ -6,6 +6,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 //Componentes
 import Home from "./Components/Home";
 import LandingPage from "./Components/LandingPage";
+import Temporal from "./Components/Temporal";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={LandingPage}/>
           <Route exact path="/home" component={Home}/>
+          <Route exact path="/temporal" component={Temporal}/>
         </Switch>
       </div>
     </BrowserRouter>

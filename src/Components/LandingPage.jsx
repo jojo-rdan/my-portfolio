@@ -7,7 +7,7 @@ export default function LandingPage () {
             <Link to="/-en">
                 <button>Banderita de US</button>
             </Link>
-            Está será mi landing, con mi foto de perfil, fondo cool de Vanta.js y el botón de enter.
+            <img src="../img/IMG_3978.jpg" alt='img'/>
             <Link to="/home">
                 <button>Entrar</button>
             </Link>
